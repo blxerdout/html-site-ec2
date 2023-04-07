@@ -3,8 +3,8 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('/Users/blxerdout/new_repos/creativespxce_site/creativespxce_site/index.html');
-})
+  res.sendFile(path.join(__dirname, '/index.html'));
+});
 
 app.get('/products', (req, res) => {
   res.send([
