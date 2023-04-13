@@ -8,15 +8,11 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '/index.html'));
 });
 
-
-app.get('/public/styles.css', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public/styles.css'));
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '/album_page.html'));
 });
 
-
-
-
-app.use(express.static(path.join(__dirname, '/public/')));
+app.use(express.static('public'));
 
 
 app.get('/products', (req, res) => {
