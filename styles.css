@@ -1,0 +1,78 @@
+.header-info {
+    background-color:black;
+    color:white;
+    font-family:monospace;
+    text-align: center;
+    font-size: xx-large;
+    border: 2px solid rgb(185, 165, 165);
+    margin: 20px;
+    cursor: crosshair;
+
+}
+
+img {
+    border-radius:410px;
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*This section is for the  Intro Statment*/
+#intro {
+    text-align:right;
+    font-size: x-large;
+    text-align: center;
+    margin-left: 200px;
+    margin-right:200px;
+    font-family: fantasy;
+    
+}
+
+#music {
+    width: 100%;
+    
+     
+}
+
+ .highlight {
+    background-color: yellow;
+    color: red;
+ }
+
+ .album_Page {
+    background-color: white;
+    color: white;
+    display:table-header-group;
+    position:absolute; left:80px; top:absolute; right:100px
+
+
+
+
+
+ }
+    
+
+    
+    
+
+ .album-headerpage {
+    background-color: black;
+    color: blanchedalmond;
+    display: table-header-group;
+    
+    
+
+ }
+
+ .bandcamp-Em {
+    margin: 50px;
+ }
+
+ .signup-form {
+    color:blue;
+    margin: 10px;
+    display: table-row;
+ }
